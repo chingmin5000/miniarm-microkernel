@@ -35,6 +35,8 @@
 *.i*86
 *.x86_64
 *.hex
+*.bin
+*.uf2
 
 # Debug files
 *.dSYM/
@@ -53,3 +55,10 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# build directory
+/build/
+
+# editor / IDE
+.vscode/
+*.swp
